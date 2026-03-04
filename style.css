@@ -1,10 +1,211 @@
-.circle-with-shadow {
-  width: 150px;
-  height: 150px;
-  /* Creates the circular shape */
-  border-radius: 50%;
-  /* Sets a background color */
-  background-color: #4CAF50; /* A pleasant green color */
-  /* Applies the inner shadow */
-  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
-}
+body {
+    background-color: #e5583d;
+  }
+
+  .main-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .parent-rectangle {
+    display: flex;
+    width: 330px;
+    height: 430px;
+    background: linear-gradient(15deg, #6e6b57 0%, #817c6a 70%, #cccabc 100%);
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 300px;
+  }
+  
+  .child-rectangle {
+    display: flex;
+    width: 300px;
+    height: 400px;
+    background: #918d7a;
+    justify-content: center;
+    border-radius: 5px;
+  }
+
+  .child-rectangle2 {
+    display: flex;
+    width: 250px;
+    height: 200px;
+    background: linear-gradient(195deg, #6e6b57 0%, #817c6a 70%, #cccabc 100%);
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    border-radius: 10px;
+  }
+
+  .child-rectangle3 {
+    display: flex;
+    width: 225px;
+    height: 175px;
+    background: linear-gradient(90deg, #040404 20%, #4d4d4d 50%, #040404 80%);
+    border-radius: 20px;
+    justify-content: center;
+  }
+
+
+
+
+  .circle {
+    display: absolute;
+    margin-top: -965px;
+    margin-right: -150px;
+    width: 125px;
+    height: 125px;
+    background-image: radial-gradient(circle, #f56b02, #fa8510, #fbbc3e);
+    border-radius: 50%;
+    z-index: 5;
+  }
+
+  .leaf {
+    display: absolute;
+    margin-top: -1085px;
+    margin-right: -110px;
+    width: 70px;
+    height: 70px;
+    background: linear-gradient(330deg, #3c9b02 20%, #57bf08 50%, #9bcd63 70%);
+    border-radius: 99% 0;
+    transform: rotate(50deg);
+    z-index: 10;
+  }
+
+
+
+
+  .circle2 {
+    display: absolute;
+    margin-top: 40px;
+    margin-right: 350px;
+    width: 125px;
+    height: 125px;
+    background-image: radial-gradient(circle, #f56b02, #fa8510, #fbbc3e);
+    border-radius: 50%;
+    z-index: 5;
+  }
+
+  .leaf2 {
+    display: absolute;
+    margin-top: -240px;
+    margin-right: 385px;
+    width: 70px;
+    height: 70px;
+    background: linear-gradient(330deg, #3c9b02 20%, #57bf08 50%, #9bcd63 70%);
+    border-radius: 99% 0;
+    transform: rotate(50deg);
+    z-index: 10;
+  }
+
+
+
+
+  .circle3 {
+    display: absolute;
+    margin-top: -350px;
+    margin-right: 675px;
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(60deg, #986252 0%, #aca59b 50%, #d7dcd9 75%);
+    border-radius: 50%;
+    z-index: 4;
+  }
+
+  .rectangle {
+    display: flex;
+    margin-top: -400px;
+    margin-right: 570px;
+    width: 60px;
+    height: 60px;
+    background: #e9f2ef;
+    justify-content: center;
+    border-radius: 5px;
+    z-index: 5;
+  }
+
+
+
+  .rectangle2 {
+    display: flex;
+    margin-top: -225px;
+    margin-right: 0px;
+    width: 475px;
+    height: 110px;
+    background: #cccabc;
+    justify-content: center;
+    border-radius: 5px;
+    z-index: 2;
+  }
+
+  .rectangle3 {
+    display: flex;
+    margin-top: -300px;
+    margin-right: 0px;
+    width: 400px;
+    height: 60px;
+    background: linear-gradient(20deg, #7c7160 0%, #b9b5a9 100%);
+    justify-content: center;
+    border-radius: 5px;
+    z-index: 3;
+  }
+
+  .rectangle4 {
+    display: flex;
+    margin-top: -150px;
+    margin-right: 0px;
+    width: 475px;
+    height: 40px;
+    background: #a3a08d;
+    justify-content: center;
+    border-radius: 5px;
+    z-index: 3;
+  }
+
+  .rectangle5 {
+    display: flex;
+    margin-top: 265px;
+    margin-right: -100px;
+    width: 125px;
+    height: 7px;
+    background: #040404;
+    justify-content: center;
+    z-index: 10;
+  }
+
+
+
+  .bottle {
+    display: flex;
+    margin-top: -300px;
+    margin-right: -525px;
+    width: 150px;
+    height: 275px;
+    border-radius: 40px 40px 0 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    z-index: 15;
+  }
+
+  .bottle-top {
+    display: flex;
+    margin-top: -650px;
+    margin-right: -525px;
+    width: 75px;
+    height: 75px;
+    background-color: rgba(255, 255, 255, 0.5);
+    z-index: 15;
+  }
+
+  .bottle-top-top {
+    display: flex;
+    margin-top: -710px;
+    margin-right: -525px;
+    width: 60px;
+    height: 60px;
+    background-color: #9d4e21;
+    z-index: 10;
+  }
+
+
