@@ -1,0 +1,10 @@
+.circle-with-shadow {
+  width: 150px;
+  height: 150px;
+  /* Creates the circular shape */
+  border-radius: 50%;
+  /* Sets a background color */
+  background-color: #4CAF50; /* A pleasant green color */
+  /* Applies the inner shadow */
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+}
